@@ -2141,3 +2141,13 @@ p.copy-right a:hover {
   }
 }
 /*--//responsive--*/
+
+/* Brand */
+.brand-logo {
+  height: 50px;
+  width: auto;
+}
+.brand-logo-footer {
+  height: 70px;
+  width: auto;
+}
