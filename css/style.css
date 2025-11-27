@@ -577,7 +577,7 @@ h3.tittle-w3ls {
 }
 
 h3.tittle-w3ls.cen {
-  color: #fff;
+  color: #1b1b1b;
   text-align: center;
 }
 
@@ -2150,4 +2150,20 @@ p.copy-right a:hover {
 .brand-logo-footer {
   height: 70px;
   width: auto;
+}
+
+.service-bullets {
+  text-align: left;
+  padding-left: 18px;
+  margin-top: 10px;
+}
+.service-bullets li {
+  margin-bottom: 6px;
+}
+.company-meta {
+  margin: 12px 0 18px;
+  padding-left: 0;
+}
+.company-meta li {
+  margin-bottom: 6px;
 }

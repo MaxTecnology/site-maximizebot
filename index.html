@@ -54,12 +54,14 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<div class="nav_right_top">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="request" href="contact.html">Fale com o time</a></li>
+							<li><a class="request" href="https://wa.me/5582996211554" target="_blank">WhatsApp</a></li>
 						</ul>
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Início</a></li>
-							<li><a href="about.html">Sobre</a></li>
-							<li><a href="contact.html">Contato</a></li>
+							<li class="active"><a class="scroll" href="#hero">Início</a></li>
+							<li><a class="scroll" href="#about">Sobre</a></li>
+							<li><a class="scroll" href="#services">Serviços</a></li>
+							<li><a class="scroll" href="#contact">Contato</a></li>
+							<li><a class="scroll" href="#privacy">Política de Privacidade</a></li>
 						</ul>
 					</div>
 				</div>
@@ -69,7 +71,7 @@
 	</div>
 
 	<!-- banner -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="hero" class="carousel slide" data-ride="carousel">
 		<!-- Indicadores -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -81,14 +83,14 @@
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>IA aplicada para resultados reais</h3>
-						<p>Automatizamos fluxos e decisões com modelos sob medida</p>
+						<h3>Maximizebot • Consultoria em Software e IA</h3>
+						<p>Soluções completas em automação, produtos digitais e inteligência artificial aplicada ao seu negócio.</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="contact.html">Fale com especialistas</a>
+								<a class="act scroll" href="#contact">Fale com especialistas</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two">Ver projetos</a>
+								<a href="#services" class="two scroll">Ver serviços</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -102,10 +104,10 @@
 						<p>Desenvolvemos produtos digitais prontos para crescer</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="contact.html">Agendar diagnóstico</a>
+								<a class="act scroll" href="#contact">Agendar diagnóstico</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two">Ver projetos</a>
+								<a href="#services" class="two scroll">Ver serviços</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -119,10 +121,10 @@
 						<p>Integramos sistemas, APIs e dados para eliminar retrabalho</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="contact.html">Fale com especialistas</a>
+								<a class="act scroll" href="#contact">Fale com especialistas</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two">Ver projetos</a>
+								<a href="#services" class="two scroll">Ver serviços</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -136,10 +138,10 @@
 						<p>Equipe de produto, design, engenharia e IA trabalhando junto com você</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="contact.html">Agendar diagnóstico</a>
+								<a class="act scroll" href="#contact">Agendar diagnóstico</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two">Ver projetos</a>
+								<a href="#services" class="two scroll">Ver serviços</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -160,7 +162,7 @@
 
 	<!--//banner -->
 	<!--/ab-->
-	<div class="banner_bottom">
+	<div class="banner_bottom" id="about">
 		<div class="container">
 			<h3 class="tittle-w3ls">Sobre a Maximizebot</h3>
 			<div class="inner_sec_info_wthree_agile">
@@ -172,8 +174,15 @@
 						<h4>Produtos digitais, automação e IA no mesmo time</h4>
 						<p>A Maximizebot é uma consultoria de tecnologia que une engenharia de software, dados e inteligência artificial para destravar produtividade.</p>
 						<p>Trabalhamos em squads enxutos, co-criando soluções com o seu time: de descoberta e arquitetura a MVPs, integrações, bots e automações que mantêm o negócio rodando.</p>
+						<ul class="list-unstyled company-meta">
+							<li><strong>Razão Social:</strong> Maximizebot Tecnologia LTDA</li>
+							<li><strong>Nome Fantasia:</strong> Maximizebot</li>
+							<li><strong>CNPJ:</strong> 58.756.202/0001-48</li>
+							<li><strong>Tempo de atuação:</strong> desde 2021</li>
+							<li><strong>Segmento:</strong> consultoria em software, automação e IA aplicada</li>
+						</ul>
 						<div class="ab_button">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="about.html" role="button">Saiba mais</a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left scroll" href="#contact" role="button">Fale com o time</a>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -235,7 +244,7 @@
 
 	<!--//ab-->
 	<!--/what-->
-	<div class="works">
+	<div class="works" id="services">
 		<div class="container">
 			<h3 class="tittle-w3ls cen">O que fazemos</h3>
 			<div class="inner_sec_info_wthree_agile">
@@ -243,22 +252,42 @@
 					<div class="col-md-3 ser-first-grid text-center">
 						<span class="fa fa-lightbulb-o" aria-hidden="true"></span>
 						<h3>Discovery e estratégia</h3>
-						<p>Imersão com o time, desenho de jornadas, arquitetura e roadmap priorizado para ganho rápido de valor.</p>
+						<ul class="service-bullets">
+							<li>Workshops de descoberta com áreas-chave.</li>
+							<li>Mapeamento de riscos técnicos e de negócio.</li>
+							<li>Arquitetura alvo e plano de migração.</li>
+							<li>Roadmap priorizado com quick wins.</li>
+						</ul>
 					</div>
 					<div class="col-md-3 ser-first-grid text-center">
 						<span class="fa fa-code" aria-hidden="true"></span>
 						<h3>Software sob medida</h3>
-						<p>Squads de engenharia entregando produtos, integrações e automações prontas para produção.</p>
+						<ul class="service-bullets">
+							<li>Desenvolvimento web, APIs e microsserviços.</li>
+							<li>Integrações com ERPs, CRMs e ferramentas internas.</li>
+							<li>Pipelines CI/CD e observabilidade desde o início.</li>
+							<li>Entregas incrementais com métricas de adoção.</li>
+						</ul>
 					</div>
 					<div class="col-md-3 ser-first-grid text-center">
 						<span class="fa fa-rocket" aria-hidden="true"></span>
 						<h3>IA generativa e bots</h3>
-						<p>Assistentes, copilots e classificadores construídos com modelos de linguagem, segurança e governança.</p>
+						<ul class="service-bullets">
+							<li>Chatbots e assistentes internos alinhados ao compliance.</li>
+							<li>Classificadores, sumarizadores e RAG com dados seguros.</li>
+							<li>Integração com WhatsApp, e-mail e sistemas internos.</li>
+							<li>Monitoramento de qualidade, guardrails e melhorias contínuas.</li>
+						</ul>
 					</div>
 					<div class="col-md-3 ser-first-grid text-center">
 						<span class="fa fa-thumbs-up" aria-hidden="true"></span>
 						<h3>Suporte e evolução</h3>
-						<p>Observabilidade, monitoração, experimentos e melhorias constantes para manter a operação saudável.</p>
+						<ul class="service-bullets">
+							<li>SRE e monitoração 24/7 com alertas acionáveis.</li>
+							<li>Backlog de melhorias priorizado por impacto.</li>
+							<li>Experimentação A/B e análises de uso.</li>
+							<li>Treinamento de times internos para autonomia.</li>
+						</ul>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -275,6 +304,41 @@
 			<p>Do discovery à sustentação, a Maximizebot integra produto, engenharia e machine learning para entregar valor rápido e com segurança.</p>
 
 			<img src="images/banner_mid.jpg" class="img-responsive" alt="Squads de tecnologia e IA">
+		</div>
+	</div>
+
+	<!--/contact-->
+	<div class="banner_bottom" id="contact">
+		<div class="container">
+			<h3 class="tittle-w3ls cen">Contato</h3>
+			<div class="inner_sec_info_wthree_agile">
+				<div class="help_full">
+					<div class="col-md-6 banner_bottom_left">
+						<h4>Fale com a Maximizebot</h4>
+						<p>Atendemos via telefone, WhatsApp e e-mail em horário comercial. Se preferir, marque um diagnóstico rápido para entendermos seu desafio.</p>
+						<ul class="list-unstyled company-meta">
+							<li><strong>Endereço:</strong> Rua Graciliano Ramos, 536</li>
+							<li><strong>Telefone/WhatsApp:</strong> <a href="https://wa.me/5582996211554" target="_blank">+55 82 99621-1554</a></li>
+							<li><strong>E-mail:</strong> <a href="mailto:maximizebot@gmail.com">maximizebot@gmail.com</a></li>
+							<li><strong>Horário:</strong> Segunda a Sexta, 09h às 18h</li>
+							<li><strong>CNPJ:</strong> 58.756.202/0001-48</li>
+						</ul>
+						<div class="top-buttons">
+							<div class="bnr-button">
+								<a class="act" href="https://wa.me/5582996211554" target="_blank">Chamar no WhatsApp</a>
+							</div>
+							<div class="bnr-button">
+								<a href="mailto:maximizebot@gmail.com" class="two">Enviar e-mail</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="col-md-6 banner_bottom_grid help">
+						<img src="images/banner_mid.jpg" alt="Equipe Maximizebot atendendo" class="img-responsive">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<!--/testimonials-->
@@ -300,7 +364,7 @@
 									<blockquote>
 										<div class="test_grid">
 											<div class="col-sm-3 text-center test_img">
-												<img src="images/t1.jpg" class="img-responsive" alt="">
+												<img src="images/t2.jpg" class="img-responsive" alt="">
 
 											</div>
 											<div class="col-sm-9 test_img_info">
@@ -316,7 +380,7 @@
 									<blockquote>
 										<div class="test_grid">
 											<div class="col-sm-3 text-center test_img">
-												<img src="images/t2.jpg" class="img-responsive" alt="">
+												<img src="images/t1.jpg" class="img-responsive" alt="">
 											</div>
 											<div class="col-sm-9 test_img_info">
 												<p>Precisávamos validar um produto de IA em semanas. Eles mapearam a jornada, construíram o MVP e entregaram métricas claras de uso. Viraram parceiros de produto.</p>
@@ -361,7 +425,7 @@
 						<h4>Time de produto, engenharia e IA trabalhando junto com você</h4>
 						<p>Planejamos, construímos e escalamos software e automações alinhadas ao seu negócio. De integrações críticas a assistentes generativos, entregamos rápido, medimos impacto e mantemos a operação saudável.</p>
 						<div class="ab_button">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="contact.html" role="button">Falar com o time</a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left scroll" href="#contact" role="button">Falar com o time</a>
 						</div>
 					</div>
 					<div class="col-md-6 banner_bottom_grid help">
@@ -375,12 +439,43 @@
 
 	<!--//bottom-->
 
+	<!-- privacy & terms -->
+	<div class="banner_bottom" id="privacy">
+		<div class="container">
+			<h3 class="tittle-w3ls cen">Política de Privacidade e Termos de Uso</h3>
+			<div class="inner_sec_info_wthree_agile">
+				<div class="help_full">
+					<div class="col-md-6 banner_bottom_left">
+						<h4>Política de Privacidade</h4>
+						<ul class="service-bullets">
+							<li>Coletamos apenas dados fornecidos pelo usuário em formulários ou contatos diretos.</li>
+							<li>Usamos os dados para responder solicitações e prestar nossos serviços de consultoria.</li>
+							<li>Não compartilhamos informações com terceiros sem consentimento, exceto por obrigação legal.</li>
+							<li>Você pode solicitar alteração ou exclusão dos dados pelo e-mail <a href="mailto:maximizebot@gmail.com">maximizebot@gmail.com</a>.</li>
+						</ul>
+					</div>
+					<div class="col-md-6 banner_bottom_left">
+						<h4>Termos de Uso</h4>
+						<ul class="service-bullets">
+							<li>O conteúdo deste site é informativo e pode mudar sem aviso prévio.</li>
+							<li>Ao enviar dados, você concorda com o uso para contato comercial e suporte.</li>
+							<li>Serviços são contratados mediante proposta formal e aceite mútuo.</li>
+							<li>Contatos comerciais e suporte: <a href="mailto:maximizebot@gmail.com">maximizebot@gmail.com</a> ou <a href="https://wa.me/5582996211554" target="_blank">+55 82 99621-1554</a>.</li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- footer -->
 	<div class="footer">
 		<div class="footer_inner_info_w3ls_agileits">
 			<div class="col-md-3 footer-left">
 				<h2><a href="index.html"><img class="brand-logo-footer" src="images/logo.png" alt="Maximizebot"></a></h2>
 				<p>Consultoria em software, automação e IA aplicada. Squads remotos que entregam rápido e com qualidade.</p>
+				<p><strong>CNPJ:</strong> 58.756.202/0001-48</p>
 				<ul class="social-nav model-3d-0 footer-social social two">
 					<li>
 						<a href="#" class="facebook">
@@ -413,9 +508,11 @@
 					<div class="col-md-4 sign-gd">
 						<h4>Menu</h4>
 						<ul>
-							<li><a href="index.html">Início</a></li>
-							<li><a href="about.html">Sobre</a></li>
-							<li><a href="contact.html">Contato</a></li>
+							<li><a class="scroll" href="#hero">Início</a></li>
+							<li><a class="scroll" href="#about">Sobre</a></li>
+							<li><a class="scroll" href="#services">Serviços</a></li>
+							<li><a class="scroll" href="#contact">Contato</a></li>
+							<li><a class="scroll" href="#privacy">Privacidade</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3 sign-gd ">
@@ -429,17 +526,17 @@
 						<h4>Informações</h4>
 						<div class="address">
 							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-phone" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Atendimento</h6>
-									<p>100% remoto, horário comercial.</p>
-								</div>
-								<div class="clearfix"> </div>
+							<div class="address-left">
+								<i class="fa fa-phone" aria-hidden="true"></i>
 							</div>
-							<div class="address-grid">
-								<div class="address-left">
+							<div class="address-right">
+									<h6>Telefone / WhatsApp</h6>
+									<p><a href="https://wa.me/5582996211554" target="_blank">+55 82 99621-1554</a></p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="address-grid">
+							<div class="address-left">
 									<i class="fa fa-envelope" aria-hidden="true"></i>
 								</div>
 								<div class="address-right">
@@ -454,7 +551,7 @@
 								</div>
 								<div class="address-right">
 									<h6>Location</h6>
-									<p>Operamos de forma remota, atendendo clientes no Brasil e exterior.</p>
+									<p>Rua Graciliano Ramos, 536</p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -465,7 +562,7 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
-			<p class="copy-right">&copy 2024 Maximizebot. Todos os direitos reservados.</p>
+			<p class="copy-right">&copy 2024 Maximizebot (CNPJ 58.756.202/0001-48). Todos os direitos reservados. | <a class="scroll" href="#privacy">Política de Privacidade e Termos</a></p>
 		</div>
 	</div>
 	</div>
