@@ -1,0 +1,57 @@
+@import"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap";
+
+:root {
+    --color-primary: #1976d2;
+    --color-secondary: #9c27b0;
+    --color-error: #d32f2f;
+    --color-text-blue: #092F56;
+    --color-text-blue-dark: #1e446b;
+    --color-text-gray: #757575;
+    --color-background: #fff;
+    --color-text-yellow: #F5AD01
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: background-color .3s ease, color .3s ease
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    line-height: 1.6
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.header {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: 20px;
+    text-align: center
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center
+}
+
+.footer {
+    background-color: var(--color-primary);
+    color: #fff;
+    text-align: center;
+    padding: 10px
+}
